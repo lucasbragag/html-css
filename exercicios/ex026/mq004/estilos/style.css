@@ -40,22 +40,8 @@ img {
     margin: auto;
 }
 
-img#cel {
-    display: block;
-}
-
-img#tablet {
-    display: none;
-}
-
-img#pc {
-    display: none;
-}
-
-img#imp {
-    display: none;
-}
-
-img#tv {
-    display: none;
-}
+img#cel {display: block;}
+img#tablet {display: none;}
+img#pc {display: none;}
+img#imp {display: none;}
+img#tv {display: none;}
