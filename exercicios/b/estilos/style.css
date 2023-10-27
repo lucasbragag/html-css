@@ -15,7 +15,8 @@ body, html {
 }
 
 img#logo {
-    width: 300px;
+    width: 200px;
+    padding: 20px;
 }
 
 header > h1 {
@@ -64,16 +65,39 @@ main {
 
 main h1 {
     font-size: 2em;
+    padding-bottom: 20px;
 }
 
 main p {
     text-align: justify;
     text-indent: 20px;
+    margin-bottom: 10px;
+}
+
+main li {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+.redes-sociais {
+    width: 28px;
+    margin: 7px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.redes-sociais:hover {
+    border: 1px solid rgba(0, 0, 0, 0.637);
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
+    transition: transform 0.3s, border 0.4s;
 }
 
 iframe#mapa {
     display: block;
-    padding: 20px;
+    padding: 10px;
+    padding-top: 20px;
     margin: 0 auto;
 }
 
@@ -82,4 +106,3 @@ footer {
     text-align: center;
     font-size: 0.7em;
 }
-
