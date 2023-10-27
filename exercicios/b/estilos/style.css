@@ -1,0 +1,85 @@
+@charset "UTF-8" ;
+
+/* Configurações Gerais */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body, html {
+    color: white;
+    background-color: black;
+}
+
+img#logo {
+    width: 300px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+menu {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    padding-bottom: 20px;
+}
+
+menu > ul > li {
+    padding: 10px;
+    background-color: rgb(19, 18, 18);
+    list-style: none;
+    display: inline-block;
+    margin: auto;
+    border-radius: 8px;
+}
+
+menu a {
+    color: white;
+    text-decoration: none;
+}
+
+menu > ul > li:hover {
+    background-color: #ffa901;
+}
+
+main {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+
+}
+
+
+main h1 {
+    font-size: 2em;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+iframe#mapa {
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-size: 0.7em;
+}
+
