@@ -72,7 +72,7 @@ menu > ul > li:hover {
 
 main {
     position: relative;
-    height: 850px;
+    height: 700px;
     width: 94vw;
     background-color: white;
     color: black;
@@ -95,10 +95,22 @@ main p {
     margin-bottom: 10px;
 }
 
-main li {
+main ul#servicos {
+    padding-left: 40px;
+}
+
+
+
+article#redes-sociais li {
     list-style-type: none;
     display: inline-block;
 
+}
+iframe#mapa {
+    display: block;
+    padding: 10px;
+    padding-top: 20px;
+    margin: 0 auto;
 }
 
 .redes-sociais {
@@ -115,12 +127,7 @@ main li {
     transition: transform 0.3s, border 0.4s;
 }
 
-iframe#mapa {
-    display: block;
-    padding: 10px;
-    padding-top: 20px;
-    margin: 0 auto;
-}
+
 
 footer {
     padding: 10px;
