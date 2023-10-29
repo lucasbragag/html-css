@@ -107,18 +107,17 @@ article#endereco p {
     padding-top: 8px;
 } 
 
-
-
-article#redes-sociais li {
-    list-style-type: none;
-    display: inline-block;
-
-}
 iframe#mapa {
     display: block;
     padding: 10px;
     padding-top: 20px;
     margin: 0 auto;
+}
+
+article#redes-sociais li {
+    list-style-type: none;
+    display: inline-block;
+
 }
 
 .redes-sociais {
