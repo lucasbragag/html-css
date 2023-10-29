@@ -72,7 +72,7 @@ menu > ul > li:hover {
 
 main {
     position: relative;
-    height: 700px;
+    height: 750px;
     width: 94vw;
     background-color: white;
     color: black;
@@ -85,7 +85,7 @@ main {
 
 
 main h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     padding-bottom: 20px;
 }
 
@@ -98,6 +98,14 @@ main p {
 main ul#servicos {
     padding-left: 40px;
 }
+
+main li {
+    padding-bottom: 4px;
+}
+
+article#endereco p {
+    padding-top: 8px;
+} 
 
 
 
