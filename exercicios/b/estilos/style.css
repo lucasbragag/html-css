@@ -136,6 +136,10 @@ iframe#mapa {
     margin: 0 auto;
 }
 
+article#redes-sociais h2 {
+    padding-top: 10px;
+}
+
 article#redes-sociais li {
     list-style-type: none;
     display: inline-block;
@@ -147,7 +151,7 @@ article#redes-sociais ul {
 }
 
 .redes-sociais {
-    width: 28px;
+    width: 30px;
     margin: 7px;
     border-radius: 20px;
     box-sizing: border-box;
@@ -159,7 +163,6 @@ article#redes-sociais ul {
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
     transition: transform 0.3s, border 0.4s;
 }
-
 
 
 footer {
