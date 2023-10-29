@@ -105,7 +105,18 @@ main li {
 
 article#endereco p {
     padding-top: 8px;
-} 
+    font-size: 1em;
+    text-indent: 20px;
+}
+
+article#endereco a {
+    text-decoration: none;
+    color: black;
+}
+
+article#endereco a:hover {
+    text-decoration: underline;
+}
 
 iframe#mapa {
     display: block;
@@ -118,6 +129,10 @@ article#redes-sociais li {
     list-style-type: none;
     display: inline-block;
 
+}
+
+article#redes-sociais ul {
+    text-align: left;
 }
 
 .redes-sociais {
