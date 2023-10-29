@@ -144,28 +144,28 @@ iframe#mapa {
     margin: 0 auto;
 }
 
-article#contato h2 {
+article#redes-sociais h2 {
     padding-top: 10px;
 }
 
-article#contato li {
+article#redes-sociais li {
     list-style-type: none;
     display: inline-block;
 
 }
 
-article#contato ul {
+article#redes-sociais ul {
     text-align: left;
 }
 
-.contato {
+.redes-sociais {
     width: 30px;
     margin: 7px;
     border-radius: 20px;
     box-sizing: border-box;
 }
 
-.contato:hover {
+.redes-sociais:hover {
     border: 1px solid rgba(0, 0, 0, 0.637);
     transform: translate(2px, 2px);
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
