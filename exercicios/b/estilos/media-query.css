@@ -4,7 +4,7 @@
     /* Tablet */
 
     main {
-        height: 820px;
+        height: 950px;
     }
 
     article#endereco p {
@@ -23,7 +23,7 @@
     /* Telas maniores*/
 
     main {
-        height: 940px;
+        height: 1050px;
     }
 
     article#endereco p {
