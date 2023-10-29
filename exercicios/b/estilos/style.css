@@ -85,15 +85,26 @@ main {
 
 
 main h1 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     padding-bottom: 20px;
 }
 
+main h2 {
+    font-size: 1.3em;
+}
+
+main h3 {
+    font-size: 1.1em;
+}
+
 main p {
+    font-size: 1em;
     text-align: justify;
     text-indent: 20px;
     margin-bottom: 10px;
 }
+
+
 
 main ul#servicos {
     padding-left: 40px;
