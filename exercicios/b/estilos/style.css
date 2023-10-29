@@ -72,7 +72,7 @@ menu > ul > li:hover {
 
 main {
     position: relative;
-    height: 800px;
+    height: 900px;
     width: 94vw;
     background-color: white;
     color: black;
@@ -114,6 +114,10 @@ main li {
     padding-bottom: 4px;
 }
 
+article#endereco h2 {
+    padding: 10px 0px;
+}
+
 article#endereco p {
     padding-top: 8px;
     font-size: 1em;
@@ -129,6 +133,10 @@ article#endereco a:hover {
     text-decoration: underline;
 }
 
+article#horario h2 {
+    padding: 10px 0px;
+}
+
 iframe#mapa {
     display: block;
     padding: 10px;
@@ -136,28 +144,28 @@ iframe#mapa {
     margin: 0 auto;
 }
 
-article#redes-sociais h2 {
+article#contato h2 {
     padding-top: 10px;
 }
 
-article#redes-sociais li {
+article#contato li {
     list-style-type: none;
     display: inline-block;
 
 }
 
-article#redes-sociais ul {
+article#contato ul {
     text-align: left;
 }
 
-.redes-sociais {
+.contato {
     width: 30px;
     margin: 7px;
     border-radius: 20px;
     box-sizing: border-box;
 }
 
-.redes-sociais:hover {
+.contato:hover {
     border: 1px solid rgba(0, 0, 0, 0.637);
     transform: translate(2px, 2px);
     box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.719);
