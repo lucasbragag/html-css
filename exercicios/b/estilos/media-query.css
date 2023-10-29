@@ -2,9 +2,32 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     /* Tablet */
+
+    article#endereco p {
+        text-align: center;
+    }
+
+    iframe#mapa {
+        width: 450px;
+        height: 320px;
+    }
+
 }
 
 
 @media screen and (min-width: 992px) {
     /* Telas maniores*/
+
+    main {
+        height: 940px;
+    }
+
+    article#endereco p {
+        text-align: center;
+    }
+
+    iframe#mapa {
+        width: 550px;
+        height: 420px;
+    }
 }
