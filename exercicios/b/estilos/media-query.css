@@ -4,11 +4,11 @@
     /* Tablet */
 
     main {
-        height: 1080px;
+        height: 950px;
     }
 
     article#endereco p {
-        text-align: center;
+        text-align: left;
     }
 
     iframe#mapa {
@@ -23,11 +23,11 @@
     /* Telas maniores*/
 
     main {
-        height: 1100px;
+        height: 1050px;
     }
 
-    article#endereco p {
-        text-align: center;
+    article#endereco a {
+        text-align: left;
     }
 
     iframe#mapa {
